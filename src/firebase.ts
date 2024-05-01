@@ -4,7 +4,7 @@ import "firebase/auth"; // If you're using Firebase authentication
 import "firebase/firestore"; // If you're using Firebase Firestore
 // Add other Firebase services that you want to use
 
-const firebaseConfig = {
+export const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
   projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
